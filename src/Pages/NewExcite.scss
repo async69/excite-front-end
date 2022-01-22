@@ -1,0 +1,81 @@
+.dropZone {
+  border: 1px solid #ff9800 !important;
+  padding-top: 6px;
+  height: 70px;
+  border-radius: 10px;
+  // margin: 4;
+}
+
+.thumbsContainer {
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+}
+.thumb {
+  display: inline-flex;
+  border-radius: 2;
+  border: 1px solid #ff9800 !important;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.thumbInner{
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+}
+.thumbImg{
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.formGroup {
+  // background-color: blue;
+  color: #db9b40;
+  font-size: 15px;
+  font-weight: 100;
+  border: none;
+  font-family: "Julius Sans One", sans-serif;
+}
+.formGroup h1 {
+  font-family: "Julius Sans One", sans-serif;
+}
+.formGroup input,
+#selfDescription,
+#occupation {
+  background-color: #222222 !important;
+  border: 1px solid #ff9800 !important;
+  color: #ff9800 !important;
+}
+.formGroup input :focus {
+  // background-color: #222222;
+  // border: 1px solid #ff9800;
+  outline-width: 0 !important;
+}
+
+input.formGroup::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ff9800;
+  opacity: 1; /* Firefox */
+}
+.formGroup button {
+  color: #222222;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 700;
+  font-size: x-large;
+}
+.form {
+  background-color: blue;
+}
+
+.buttt{
+  // text-decoration:#ffffff;
+  color: #ffffff;
+}
+.authBUttons button{
+margin-left: 10px;
+}
